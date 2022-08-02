@@ -29,23 +29,23 @@ The only prerequisite is to have windows server installed. It can be in an on-pr
 
 
 ## Usage
-Run powershell as administrator or a user with perms.
+Run powershell as administrator or a user with perms.  
 
-*Install the Docker-Microsoft PackageManagement Provider from the PowerShell Gallery:
-Install-Module -Name DockerMsftProvider -Repository PSGallery -Force
+*Install the Docker-Microsoft PackageManagement Provider from the PowerShell Gallery:  
+Install-Module -Name DockerMsftProvider -Repository PSGallery -Force  
 
-Agree using “Yes” or “Y” or “A” to Agree to all.
+Agree using “Yes” or “Y” or “A” to Agree to all.  
 
 *Install the latest Docker Engine and Client
 Install-Package -Name docker -ProviderName DockerMsftProvider
 
-Check docker version:
+Check docker version:  
 docker -v
 
-Install Docker Compose CLI plugin, first we must enable TLS1.2. Run the following.
+Install Docker Compose CLI plugin, first we must enable TLS1.2. Run the following:  
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Download the latest release of compose v2.7.0.
+Download the latest release of compose v2.7.0:  
 Invoke-WebRequest "https://github.com/docker/compose/releases/download/v2.7.0/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\Docker\docker-compose.exe
 
  
