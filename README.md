@@ -71,6 +71,6 @@ Publish sample static page.  Ccreate folder with content folder inside
 Put your website in content folder:  
 ![Screenshot](content.png)  
 
-
+In addition to the site content you need the Dockerfile
 
  
