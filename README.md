@@ -77,8 +77,10 @@ In addition to the site content you need the Dockerfile
  Build your iis-site  
  **docker build -t iis-site .**  
  
- Run container
+ Run container, please red this before: https://phoenixnap.com/kb/docker-run-command-with-examples  
  **docker run -d -p 8050:80 --name sitio-iis iis-site**  
  
  ![Screenshot](dockerbuildandrun.png)  
+ 
+ 
  
