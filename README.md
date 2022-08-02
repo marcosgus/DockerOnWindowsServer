@@ -1,5 +1,5 @@
 # Run docker on Windows Server 2019
-> Outline a brief description of your project.
+> We are going to see how to install docker on Windows Server 2019, not Docker Desktop.
 
 ## Table of Contents
 * [General Info](#general-information)
