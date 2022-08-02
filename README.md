@@ -85,3 +85,4 @@ In addition to the site content you need the Dockerfile
  In browser:  
   ![Screenshot](holamundo.png) 
  
+[Where are Docker Images Stored? Docker Container Paths Explained](https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/)
