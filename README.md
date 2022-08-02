@@ -36,7 +36,7 @@ Install-Module -Name DockerMsftProvider -Repository PSGallery -Force
 
 Agree using “Yes” or “Y” or “A” to Agree to all.  
 
-*Install the latest Docker Engine and Client
+*Install the latest Docker Engine and Client  
 Install-Package -Name docker -ProviderName DockerMsftProvider
 
 Check docker version:  
