@@ -80,4 +80,5 @@ In addition to the site content you need the Dockerfile
  Run container
  **docker run -d -p 8050:80 --name sitio-iis iis-site**  
  
+ ![Screenshot](dockerbuildandrun.png)  
  
