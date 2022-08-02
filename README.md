@@ -74,4 +74,10 @@ Put your website in content folder:
 In addition to the site content you need the Dockerfile  
 ![Screenshot](dockerfolder.png)  
 
+ Build your iis-site  
+ **docker build -t iis-site .**  
+ 
+ Run container
+ **docker run -d -p 8050:80 --name sitio-iis iis-site**  
+ 
  
