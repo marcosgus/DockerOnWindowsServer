@@ -42,10 +42,10 @@ Install-Package -Name docker -ProviderName DockerMsftProvider
 Check docker version:
 docker -v
 
-Install Docker Compose CLI plugin, first we must enable TLS1.2. Run the following
+Install Docker Compose CLI plugin, first we must enable TLS1.2. Run the following.
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Download the latest release of compose v2.7.0:
- Invoke-WebRequest "https://github.com/docker/compose/releases/download/v2.7.0/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\Docker\docker-compose.exe
+Download the latest release of compose v2.7.0.
+Invoke-WebRequest "https://github.com/docker/compose/releases/download/v2.7.0/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\Docker\docker-compose.exe
 
  
