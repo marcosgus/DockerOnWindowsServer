@@ -60,12 +60,12 @@ Install choco package distribution: **Set-ExecutionPolicy Bypass -Scope Process 
 
 Install notepad++: **choco install notepadplusplus**    
 
-Install firefox: **choco install firefox**    
+Install firefox: **choco install firefox** 
+
 ------------  
 [Repo IIS docker](https://github.com/microsoft/iis-docker)
 
-Publish sample static page.  C
-create folder with content folder inside
+Publish sample static page.  Ccreate folder with content folder inside
 
 Put your website in content folder:  
 ![Screenshot](content.png)
