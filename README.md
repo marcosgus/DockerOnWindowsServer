@@ -56,7 +56,8 @@ It doesn't hurt to do:
 
 Disable windows defender: **Uninstall-WindowsFeature -Name Windows-Defender**    
 
-Install choco package distribution: **Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))**    
+Install choco package distribution:   
+**Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))**    
 
 Install notepad++: **choco install notepadplusplus**    
 
