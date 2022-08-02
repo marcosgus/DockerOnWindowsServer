@@ -66,6 +66,7 @@ Install firefox: **choco install firefox**
 Publish sample static page.  C
 create folder with content folder inside
 
-Put your website content
+Put your website in content folder:  
+![Screenshot](content.png)
 
  
