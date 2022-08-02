@@ -61,7 +61,8 @@ Install notepad++: **choco install notepadplusplus**
 
 Install firefox: **choco install firefox**    
 
-[From Repo IIS dockert] https://github.com/microsoft/iis-docker  
+[From Repo IIS docker](https://github.com/microsoft/iis-docker)
+
 
 
 
