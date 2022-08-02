@@ -61,9 +61,11 @@ Install notepad++: **choco install notepadplusplus**
 
 Install firefox: **choco install firefox**    
 
-[From Repo IIS docker](https://github.com/microsoft/iis-docker)
+[Repo IIS docker](https://github.com/microsoft/iis-docker)
 
+Publish sample static page.  C
+create folder with content folder inside
 
-
+Put your website content
 
  
