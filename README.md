@@ -70,4 +70,5 @@ create folder with content folder inside
 Put your website in content folder:  
 ![Screenshot](content.png)
 
+
  
