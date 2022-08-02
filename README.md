@@ -51,6 +51,7 @@ Download the latest release of compose v2.7.0:
 Start docker service  
 **Start-Service Docker**  
 
+------------  
 It doesn't hurt to do:  
 
 Disable windows defender: **Uninstall-WindowsFeature -Name Windows-Defender**    
@@ -60,7 +61,7 @@ Install choco package distribution: **Set-ExecutionPolicy Bypass -Scope Process 
 Install notepad++: **choco install notepadplusplus**    
 
 Install firefox: **choco install firefox**    
-
+------------  
 [Repo IIS docker](https://github.com/microsoft/iis-docker)
 
 Publish sample static page.  C
