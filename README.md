@@ -66,7 +66,7 @@ Install firefox: **choco install firefox**
 ------------  
 [Repo IIS docker](https://github.com/microsoft/iis-docker)
 
-Publish sample static page.  Ccreate folder with content folder inside
+Publish sample static page.  Create folder with content folder inside
 
 Put your website in content folder:  
 ![Screenshot](content.png)  
